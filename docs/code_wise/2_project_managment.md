@@ -64,24 +64,24 @@ An API developed using FastAPI, integrated with OpenAI GPT-3 to analyze code in 
   CodeWise supports them by enhancing the quality and efficiency of their code through automated analysis.
 
 ### Deliverables 
-<!--*(To be completed)*  
+{/**(To be completed)*  
  Define the major deliverables of the CodeWise project, e.g.:
 - Code Analysis Module
 - Discord Notification Integration
 - Web-based Documentation Portal
--->
+*/}
 - **Code Analysis Module** – Rule-based code validation with Gemini API.  
 - **Platform Integration** – GitHub Webhooks, Discord alerts via n8n.  
 - **Feedback Engine** – Smart improvement suggestions with clean formatting.  
 - **Metrics Dashboard** – PR scores, activity history, developer stats.
 
 ### Timeline   
-<!--*(To be completed)*
+{/**(To be completed)*
 Example structure:
 - Month 1: Requirement gathering, design, prototyping
 - Month 2: Module development, GPT-3 integration, early testing
 - Month 3: Final testing, documentation, beta release
--->
+*/}
 - **Month 1**: Planning, prototyping, Gemini integration  
 - **Month 2**: Core development, GitHub/Discord integration, testing  
 - **Month 3**: Dashboard, final testing, documentation, beta release
@@ -185,13 +185,13 @@ The team meets weekly with all project members every **Monday afternoon** (or **
 - Planning upcoming tasks and priorities
 
 ## Backlog
-<!--
+{/*
 | ID | Feature | Description | Importance |Proposal|
 | -- | ------- | ----------- |----------- |--------|
 | 1  | Send Feedback about a code to developer| Implements a code review automaticaly seen Performance and Code Smell | 100 |Improve software developmen quality in 10% |
 | 2  | Create Improvement/Refactor test on management program| When a improment is detected a Improvement/Refactor Task is created on management software (e.g., Jira) | 90 |Improve software developmen quality and management in 15% |
 | 3  | Send informartion about quality of code to a database to improve the developer| Send information about code smell and performance of code to a database to identify means to improve the developer that creates the code | 95 |Improve software developmen quality and management in 20% |
--->
+*/}
 
 | ID | Feature | Description | Importance | Proposal |
 |----|---------|-------------|------------|----------|
@@ -212,8 +212,8 @@ The team meets weekly with all project members every **Monday afternoon** (or **
 * Release 2.0 (Undefined): Code Analysis & Platform Integration
 * Release 3.0 (Undefined): Feedback System & Visualization
 * Release 4.0 (Undefined): Performance & Quality Enhancements
-<!--* Release 2.0 (Undefined): Create Improvement/Refactor test on management program
-* Release 3.0 (Undefined): Send informartion about quality of code to a database to improve the developerr-->
+{/* Release 2.0 (Undefined): Create Improvement/Refactor test on management program */}
+{/* Release 3.0 (Undefined): Send information about quality of code to a database to improve the developer */}
 
 ## Release 1.0 - 01/11/2024
 

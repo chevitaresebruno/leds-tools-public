@@ -3,15 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'LEDS DevTools',
+  title: 'LEDS DevTools (Not Official)',
   favicon: 'img/favicon.ico',
-  url: `https://leds-org.github.io`,
-  baseUrl: '/',
+  url: 'https://Nicolas-Botelho.github.io',
+  baseUrl: '/leds-tools-public/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'leds-org', // Usually your GitHub org/user name.
-  projectName: 'leds-tools', // Usually your repo name.
+  organizationName: 'Nicolas-Botelho', // Usually your GitHub org/user name.
+  projectName: 'leds-tools-public', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
