@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 title: Release Plan
 ---
 ## Version 1 for .NET 
