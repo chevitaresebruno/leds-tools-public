@@ -55,15 +55,15 @@ If you want to understand what REST APIs are, you can also check:
 ### Suggested Route
 - See [Overview](./1_overview.md) to understand the Spark principles and objectives;
 - See [Installation](./2_installation.md) to install and use Spark;
-- See [Writing a File](./how_to_use/1_writting_a_file.md) to learn how to write your first ".spark"; and
-- See [File Examples](./how_to_use/2_files_examples.md) to see example files.
+- See [Writing a File](./3_how_to_use/1_writting_a_file.md) to learn how to write your first ".spark"; and
+- See [File Examples](./3_how_to_use/2_file_examples/1_conecta_fapes.md) to see example files.
 
 ### For Advanced Users
 - See [Understanding the Generated Code Architecture](./advanced_stuffs/Architecture/generated_arch/0_introduction.mdx) to understand the generated code architecture;
-    - For Clean Architecture C#, see [Clean Architecture Csharp](./advanced_stuffs/Architecture/generated_arch/backend/4_Csharp_Clean.md);
-    - For MVC Django Rest Framework Architecture in Python, see [Python Architecture](./advanced_stuffs/Architecture/generated_arch/backend/2_Python.md);
-    - For Minimal API C#, see [Minimal API Csharp](./advanced_stuffs/Architecture/generated_arch/backend/3_Csharp_Minimal-API.md); and
-    - For MVC Spring-Boot Architecture in Java, see [Java Architecture](./advanced_stuffs/Architecture/generated_arch/backend/1_Java.md).
+    - For Clean Architecture C#, see [Clean Architecture Csharp](./5_sparklib_advanced/4_backend/2_generated_arch/4_Csharp_Clean.md);
+    - For MVC Django Rest Framework Architecture in Python, see [Python Architecture](./5_sparklib_advanced/4_backend/2_generated_arch/2_Python.md);
+    - For Minimal API C#, see [Minimal API Csharp](./5_sparklib_advanced/4_backend/2_generated_arch/3_Csharp_Minimal-API.md); and
+    - For MVC Spring-Boot Architecture in Java, see [Java Architecture](./5_sparklib_advanced/4_backend/2_generated_arch/1_Java.md).
 
 ## I Want to Improve the Spark Code
 When dealing with Spark, you must know that there are two different source codes. The first is about the grammar specifier, called Spark, and the compiler, called SparkLib. To improve the code, you need to integrate both of them.
@@ -118,7 +118,8 @@ In the Technical Area, you will need:
     - [Cursinho de TypeScript](https://www.youtube.com/watch?v=ppDsxbUNtNQ&t=498s).
 
 ### Suggested Route
-- See [An Advanced Study](./how_to_use/3_advanced_study.md) to understand the grammar tokens and their uses;
-- See [Architecture](./advanced_stuffs/Architecture/1_overview.mdx) to [Frontend Architecture](./advanced_stuffs/Architecture/src_folder/4_frontend_architecture.mdx) to check the Spark source code architecture;
-- See [Library Architecture](./advanced_stuffs/sparklib_architecture/overview.md) to check the library architecture; and
-- See [Library Compiler](./advanced_stuffs/sparklib_compiler/0_overview.md) to check the library compiler structure.
+- See [An Advanced Study](./3_how_to_use/3_advanced_study.md) to understand the grammar tokens and their uses;
+- See [Metamodel](./4_spark_advanced/1_metamodel.md) to check the grammar metamodel;
+- See [Architecture](./4_spark_advanced/3_Architecture/1_overview.mdx) to check the Spark source code architecture;
+- See [Library Architecture - Backend](./5_sparklib_advanced/4_backend/1_overview.md) to check the library backend scoped architecture;
+- See [Library Architecture - Frontend](./5_sparklib_advanced/5_frontend/1_frontend.mdx) to check the library frontend scoped architecture;
